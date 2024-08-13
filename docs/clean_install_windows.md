@@ -86,9 +86,15 @@ It's highly recommended to backup your critical data on some online drive as wel
 - Disconnect all external or non-boot internal drives to reduce installation risks.
 - Restart your PC and boot from the USB flash drive, typically accessed by pressing F11 or F12 during startup. If it's not working for you then google for example "Asus Zephyrus G14 boot menu key" and find the results for your model number.
 - Follow on-screen instructions.
+<Tabs>
+<TabItem name="old_installer" label="Old Installer" default>
+
   - Choose "Custom: Install Windows only (advanced)" for a clean install.
   - Delete all partitions on the boot drive, or if you want to save data partitions then delete only the C drive and other small system partitions, and select the unallocated space created.
   - Click "Next" to start the installation. Windows will auto-create the necessary partitions.
+
+</TabItem>
+</Tabs>
 
 :::tip
 
